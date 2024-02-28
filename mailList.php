@@ -3,6 +3,8 @@
 if(isset($_POST['submit'])) {
     $mailto = "bzgames.info@gmail.com";
     $fromEmail = $_POST['email'];
+    $subject = "Sign up for wait list";
+    $subject2 = "Waitlist confirmation";
 
     $message = "Client Email";
 
